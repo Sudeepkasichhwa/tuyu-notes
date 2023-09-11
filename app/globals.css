@@ -2,7 +2,44 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
+/* card styles */
+.card {
+  @apply 
+    
+    shadow-sm 
+    rounded-md 
+    py-3 px-4 my-4 
+    relative 
+    overflow-hidden;
+}
+.card h3 {
+  @apply 
+    font-bold text-sm 
+    mb-0;
+}
+.card p {
+  @apply my-4 text-xs line-clamp-2 leading-6;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
@@ -24,4 +61,4 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
-}
+} */
