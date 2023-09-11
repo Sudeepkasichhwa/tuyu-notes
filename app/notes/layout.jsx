@@ -4,7 +4,7 @@ import Sidebar from "../components/Sidebar";
 const Layout = ({ children }) => {
   return (
     <div className="flex">
-        <Navbar/>
+        {/* <Navbar/> */}
       <Sidebar />
       {children}
     </div>
